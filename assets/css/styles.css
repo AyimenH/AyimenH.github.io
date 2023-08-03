@@ -658,15 +658,6 @@ img {
   color: var(--first-color-lighter);
 }
 
-.footer__social {
-  font-size: 1.25rem;
-  margin-right: var(--mb-1-5);
-}
-
-.footer__social:hover {
-  color: var(--first-color-lighter);
-}
-
 .footer__copy {
   font-size: var(--smaller-font-size);
   text-align: center;
@@ -674,7 +665,7 @@ img {
   margin-top: var(--mb-3);
 }
 
-.footer__title, .footer__subtitle, .footer__link, .footer__social {
+.footer__title, .footer__subtitle, .footer__link{
   color: #FFF;
 }
 
@@ -769,6 +760,13 @@ img {
     display: grid;
     grid-template-columns: .6fr;
     justify-content: center;
+  }
+  .footer__links {
+    display: flex;
+    flex-direction: row;
+    row-gap: 1.5rem;
+    align-items: space-between;
+    justify-content: space-between;
   }
 }
 
